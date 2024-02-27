@@ -15,6 +15,6 @@ public class Khoa {
     @Column(name = "NAME")
     public String NAME;
 
-    @OneToMany(mappedBy="KHOA")
+    @OneToMany(mappedBy = "KHOA")
     public Set<Student> listSV = new HashSet<>();
 }
